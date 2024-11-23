@@ -1,0 +1,22 @@
+.icon{
+    width: 10%;
+    background-color: #fff;
+    height: 26%;
+    float: left;
+}
+.SerchBar{
+    width: 80%;
+    height: 26%;
+    background-color: #fff;
+    float: left;
+}
+.notificationPanal{
+    width: 10%;
+    height: 26%;
+    background-color:#fff;
+}
+.Header{
+    width: 100%;
+    height: 26px;
+    background-color: #fff;
+}

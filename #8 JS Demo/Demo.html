@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+
+</head>
+<style>
+    #screen{
+        width: 300px;
+        height: 200px;
+        border: solid 1px;
+    }
+</style>
+<body> 
+
+    <div id="screen">
+    </div>
+    <button onclick="Color('red')">Red</button>
+    <button onclick="Color('green')">Green</button>
+    <button onclick="Color('yellow')">Yellow</button>
+    <button onclick="Color('blue')">Blue</button>
+    
+    <script>
+
+ function Color(col)
+document.getElementById("screen").style.background=col
+
+    </script>
+         <input type="text" id="inp">
+         <button  onclick="display()">Click Heare</button>
+        <h1 id="display-head"></h1>
+
+        <script>
+             
+             function display()
+             {
+
+                var text=document.getElementById("inp").value;
+                document.getElementById("display-head").innerHTML=text
+
+                if (text === "Ronaldo") {
+             
+                alert("suiiiiii...");
+            } else {
+              
+                alert("Name is not Ronaldo.");
+
+    
+    
+
+             }
+            }
+
+
+
+
+         </script>
+    
+</body>
+</html>

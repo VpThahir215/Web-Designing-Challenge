@@ -1,0 +1,30 @@
+html>
+<head>
+   <style>
+      #divsection {
+         width: 650px;
+         background-color: white;
+         height: 500px;
+      }
+   </style>
+</head>
+<body>
+   <h2>Changing the Background Color when we click on button</h2>
+   <div id="divsection">
+      <p> This is the demo text. </p>
+      <button onclick="changeBackgroundColor('red')">Red
+        <button onclick="changeBackgroundColor('yellow')">Yellow
+            <button onclick="changeBackgroundColor('blue')">Blue
+              
+                    <button onclick="changeBackgroundColor('#234d1b')">Green
+         
+      </button>
+      <!-- Script functionality of backgroundColor property-->
+      <script>
+      function changeBackgroundColor(cc) {
+         document.getElementById("divsection").style.backgroundColor=cc
+      }
+      </script>
+   </div>
+</body>
+</html>

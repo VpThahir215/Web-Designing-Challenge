@@ -1,0 +1,25 @@
+#suggetion{
+    width: 341px;
+    height: 130px;
+    background: #bcb3c5;
+    padding-top: 10px;
+    font-size: 10px;
+    
+}.valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }.invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+ 
